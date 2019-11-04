@@ -6,13 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <Button
+        android:id="@+id/btn_static_fragment"
+        android:layout_width="408dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="308dp"
+        android:onClick="handlerClickStaticFragment"
+        android:text="Contoh Static Fragments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_dynamic_fragment"
+        android:layout_width="406dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="308dp"
+        android:onClick="handlerClickDynamicFragment"
+        android:text="Contoh Dynamic Fragments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_praktikum_fragment"
+        android:layout_width="408dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="324dp"
+        android:onClick="handlerClicPraktikumFragment"
+        android:text="Tugas Praktikum Fragments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
